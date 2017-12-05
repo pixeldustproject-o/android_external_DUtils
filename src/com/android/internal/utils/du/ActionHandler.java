@@ -150,9 +150,6 @@ public class ActionHandler {
         sDisabledActions.add(SYSTEMUI_TASK_EXPANDED_DESKTOP);
         sDisabledActions.add(SYSTEMUI_TASK_ONE_HANDED_MODE_LEFT);
         sDisabledActions.add(SYSTEMUI_TASK_ONE_HANDED_MODE_RIGHT);
-        // we need to make this more reliable when the user tap the partial screenshot button
-        // quickly and more times
-        sDisabledActions.add(SYSTEMUI_TASK_REGION_SCREENSHOT);
     }
 
     static enum SystemAction {
