@@ -148,6 +148,7 @@ public class ActionHandler {
     // remove actions from here as they come back on deck
     static final Set<String> sDisabledActions = new HashSet<String>();
     static {
+        sDisabledActions.add(SYSTEMUI_TASK_SCREENRECORD);
         sDisabledActions.add(SYSTEMUI_TASK_ONE_HANDED_MODE_LEFT);
         sDisabledActions.add(SYSTEMUI_TASK_ONE_HANDED_MODE_RIGHT);
     }
